@@ -9,3 +9,4 @@ class ResPartner(models.Model):
     _inherit = 'res.partner'
 
     fax = fields.Char()
+    fax2 = fields.char()
